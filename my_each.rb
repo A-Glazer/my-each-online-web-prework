@@ -6,7 +6,7 @@ def my_each(words)
     yield words[x]
     x = x + 1
   end
-  my_each(words)
+  words
 end
 
 my_each(words) do |x|
